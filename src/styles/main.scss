@@ -1,5 +1,5 @@
-@import 'reset-css/reset';
-@import "fonts";
+@use 'reset-css/reset';
+@use "fonts";
 
 * {
   box-sizing: border-box;
@@ -17,11 +17,12 @@
 }
 
 .body {
+  padding: 40px 0;
   background-color: var(--slate300);
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100svh;
   font-family: 'Outfit', Arial, Helvetica, sans-serif;
 }
 
@@ -30,7 +31,8 @@
   background-color: var(--white);
   text-align: center;
   width: clamp(0px, calc(100% - 32px), 320px);
-  border-radius: 16px;
+  border-radius: 20px;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476518);
 
   &__container {
     display: flex;
