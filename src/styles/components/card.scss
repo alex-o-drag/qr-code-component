@@ -1,0 +1,51 @@
+.card {
+  padding: 16px 16px 40px 16px;
+  background-color: var(--white);
+  text-align: center;
+  width: clamp(0px, calc(100% - 32px), 320px);
+  border-radius: 20px;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476518);
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__qr-wrapper {
+    background-color: var(--blue600);
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  &__qr-code {
+    color: var(--white);
+    width: clamp(0px, calc(100% - 16px), 160px);
+  }
+
+  &__text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  &__title {
+    color: var(--slate900);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.1818; /* or 26px */
+  }
+
+  &__paragraph {
+    color: var(--slate500);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4; /* or 21px */
+    letter-spacing: 0.2px;
+  }
+}
