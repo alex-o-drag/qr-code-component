@@ -1,6 +1,7 @@
 @use 'common/variables';
 @use 'common/resets';
 @use "common/fonts";
-
+@use "common/settings";
 @use "components/body";
+@use "components/main";
 @use "components/card";
