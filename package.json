@@ -7,10 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint:css": "stylelint \"**/*.{css,scss,vue}\"",
-    "lint:css:fix": "stylelint \"**/*.{css,scss,vue}\" --fix",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,vue,html,md}\"",
-    "check-format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,scss,vue,html,md}\""
+    "lint:css": "stylelint \"**/*.{css,scss}\"",
+    "lint:css:fix": "stylelint \"**/*.{css,scss}\" --fix",
+    "format": "prettier --write \"**/*.{css,scss,html,md}\"",
+    "check-format": "prettier --check \"**/*.{css,scss,html,md}\""
   },
   "devDependencies": {
     "postcss-scss": "^4.0.9",
