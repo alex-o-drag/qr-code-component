@@ -9,10 +9,12 @@
     "preview": "vite preview",
     "lint:css": "stylelint \"**/*.{css,scss}\"",
     "lint:css:fix": "stylelint \"**/*.{css,scss}\" --fix",
-    "format": "prettier --write \"**/*.{css,scss,html,md}\"",
-    "check-format": "prettier --check \"**/*.{css,scss,html,md}\""
+    "format": "prettier --write \"**/*.{css,scss,html,md,js}\"",
+    "check-format": "prettier --check \"**/*.{css,scss,html,md,js}\"",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "postcss-scss": "^4.0.9",
     "prettier": "^3.6.2",
     "sass": "^1.89.2",

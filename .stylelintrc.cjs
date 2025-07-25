@@ -9,5 +9,6 @@ module.exports = {
       },
     ],
     'color-hex-length': 'long',
+    'selector-class-pattern': null,
   },
 };
